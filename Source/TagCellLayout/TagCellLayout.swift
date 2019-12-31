@@ -11,14 +11,14 @@ import UIKit
 
 public class TagCellLayout: UICollectionViewLayout {
 	
-	let alignment: LayoutAlignment
+	public let alignment: LayoutAlignment
 
-	var layoutInfoList: [LayoutInfo] = []
-	var numberOfTagsInCurrentRow = 0
-	var currentTagIndex: Int = 0
+	public var layoutInfoList: [LayoutInfo] = []
+	public var numberOfTagsInCurrentRow = 0
+	public var currentTagIndex: Int = 0
 
 	
-	weak var delegate: TagCellLayoutDelegate?
+	public weak var delegate: TagCellLayoutDelegate?
 	
 	//MARK: - Init Methods
 	

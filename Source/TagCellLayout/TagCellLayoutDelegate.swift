@@ -11,5 +11,5 @@ import UIKit
 
 public protocol TagCellLayoutDelegate: NSObjectProtocol {
 	
-	func tagCellLayoutTagSize(layout: TagCellLayout, atIndex index:Int) -> CGSize
+    func tagCellLayoutTagSize(layout: TagCellLayout, atIndex index:Int) -> CGSize
 }

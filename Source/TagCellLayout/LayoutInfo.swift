@@ -11,7 +11,7 @@ import UIKit
 
 public extension TagCellLayout {
 	
-	struct LayoutInfo {
+    struct LayoutInfo {
 		
 		var layoutAttribute: UICollectionViewLayoutAttributes
 		var whiteSpace: CGFloat = 0.0

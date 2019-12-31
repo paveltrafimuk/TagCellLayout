@@ -21,7 +21,7 @@ public extension TagCellLayout {
 
 extension TagCellLayout.LayoutAlignment {
 	
-	var distributionDivisionFactor: CGFloat {
+	public var distributionDivisionFactor: CGFloat {
 		switch self {
 		case .center:
 			return 2
